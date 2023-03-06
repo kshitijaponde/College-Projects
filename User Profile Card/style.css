@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile{
+    background-color: rgba(9, 71, 115, 0.995);
+    text-align: center;
+    padding: 40px 90px;
+    color: white;
+    position: relative;
+    border-radius: 20px;
+}
+
+.menu-icon{
+    width: 25px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    cursor: pointer;
+}
+
+.setting-icon{
+    width: 25px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    cursor: pointer;
+}
+
+.profile-icon{
+    width: 150px;
+    border-radius: 50%;
+    background: white;
+    padding: 4px;
+    margin-top: 40px;
+
+}
+
+.profile-bottom{
+    background-color: white;
+    color: #999;
+    padding: 60px 0px;
+    margin-right: -90px;
+    margin-left: -90px;
+    margin-bottom: -40px;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+
+.profile-bottom img{
+    width: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.profile button{
+    background-color: white;
+    color: rgba(9, 71, 115, 0.995);
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px rgba(9, 71, 115, 0.995);
+    padding: 15px 60px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: -50px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.twitter{
+    height: 50px;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.instagram{
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.linkedin{
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.profile h3{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 500;
+}
